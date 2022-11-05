@@ -65,6 +65,17 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		03CC2B042916BD33003B7AA8 /* Supportive Files */ = {
+			isa = PBXGroup;
+			children = (
+				58E02EA0280443D800CAA3FA /* AppDelegate.swift */,
+				58E02EA2280443D800CAA3FA /* SceneDelegate.swift */,
+				58E02EAB280443DA00CAA3FA /* LaunchScreen.storyboard */,
+				58E02EAE280443DA00CAA3FA /* Info.plist */,
+			);
+			name = "Supportive Files";
+			sourceTree = "<group>";
+		};
 		581DF6652805DC40004943A2 /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,10 +146,7 @@
 		58E02E9F280443D800CAA3FA /* LearningTask-6.4 */ = {
 			isa = PBXGroup;
 			children = (
-				58E02EA0280443D800CAA3FA /* AppDelegate.swift */,
-				58E02EA2280443D800CAA3FA /* SceneDelegate.swift */,
-				58E02EAB280443DA00CAA3FA /* LaunchScreen.storyboard */,
-				58E02EAE280443DA00CAA3FA /* Info.plist */,
+				03CC2B042916BD33003B7AA8 /* Supportive Files */,
 				58E02EA9280443DA00CAA3FA /* Assets.xcassets */,
 				03CC2B012916A74D003B7AA8 /* Extensions */,
 				581DF6652805DC40004943A2 /* Persistence */,

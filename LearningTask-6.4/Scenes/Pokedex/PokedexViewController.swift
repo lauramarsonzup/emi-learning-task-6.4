@@ -14,7 +14,7 @@ class PokedexViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        tableView.tableHeaderView = HeaderView.com(titulo: "Pokédex")
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
